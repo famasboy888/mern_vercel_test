@@ -21,9 +21,14 @@ function App() {
   };
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Data from backend: {message}
-    </h1>
+    <div>
+      <h1 className="text-3xl font-bold underline text-blue-400">
+        This has tailwind added
+      </h1>
+      <h1 className="text-3xl font-bold underline">
+        Data from backend: {message}
+      </h1>
+    </div>
   );
 }
 
