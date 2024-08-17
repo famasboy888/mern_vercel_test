@@ -13,8 +13,7 @@ const NODE_ENV = process.env.NODE_ENV;
 const app = express();
 
 const corsOptions = {
-  // origin: NODE_ENV === "development" ? "*" : process.env.FRONTEND_URL,
-  origin: "*",
+  origin: NODE_ENV === "development" ? "*" : process.env.FRONTEND_URL,
   credentials: true,
 };
 
