@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold underline text-green-400">
+      <h1 className="text-3xl font-bold underline text-red-400">
         This has tailwind added
       </h1>
       <h1 className="text-3xl font-bold underline">
